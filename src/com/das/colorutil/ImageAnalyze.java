@@ -6,7 +6,7 @@
 package com.das.colorutil;
 
 import com.das.colorutil.utils.Quantize;
-import com.das.colorutil.colorsystems.RGB;
+import com.das.colorutil.colorspaces.RGB;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.Collections;

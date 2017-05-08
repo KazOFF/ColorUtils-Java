@@ -5,7 +5,7 @@
  */
 package com.das.colorutil;
 
-import com.das.colorutil.colorsystems.CIELab;
+import com.das.colorutil.colorspaces.CIELab;
 
 /**
  *
@@ -20,6 +20,8 @@ public class ColorDifference {
     public static double difference(CIELab c1, CIELab c2) {
         return Math.pow(differenceWithoutRoot(c1, c2), 1 / 2);
     }
+
+
 
     public static double differenceWithoutRoot(double L1, double a1, double b1, double L2, double a2, double b2) {
         return Math.pow((L1 - L2), 2) + Math.pow((a1 - a2), 2) + Math.pow((b1 - b2), 2);

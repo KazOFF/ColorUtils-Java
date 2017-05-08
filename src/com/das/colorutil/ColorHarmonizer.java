@@ -5,7 +5,7 @@
  */
 package com.das.colorutil;
 
-import com.das.colorutil.colorsystems.HSV;
+import com.das.colorutil.colorspaces.HSV;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,7 +29,7 @@ public class ColorHarmonizer {
     public static final int METHOD_MONOCHROMATIC = 11;
 
     public static List<HSV> harmonize(HSV hsv, int method) {
-        List<HSV> list = new ArrayList<>();
+        List<HSV> list = new ArrayList();
         switch (method) {
             case METHOD_COMPLEMENTARY:
                 list.add(new HSV((hsv.getH()) % 360, hsv.getS(), hsv.getV()));
