@@ -3,9 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.das.colorutil;
+package ru.kazov.colorutils;
 
-import com.das.colorutil.colorspaces.*;
+import ru.kazov.colorutils.colorspaces.CIELab;
+import ru.kazov.colorutils.colorspaces.ColorSpace;
+import ru.kazov.colorutils.colorspaces.RGB;
+import ru.kazov.colorutils.colorspaces.RYB;
 
 import java.awt.image.BufferedImage;
 import java.io.File;

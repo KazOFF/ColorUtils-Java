@@ -4,25 +4,21 @@
  * and open the template in the editor.
  */
 
-package com.das.colorutil.colorspaces;
+package ru.kazov.colorutils.colorspaces;
 
 /**
  *
  * @author Kaz
  */
-public class HSV extends ColorSpace {
+public class HSL extends ColorSpace {
     protected double H;
     protected double S;
-    protected double V;
+    protected double L;
     
-    public HSV(double H, double S, double V){
+    public HSL(double H, double S, double L) {
         this.H = H;
         this.S = S;
-        this.V = V;
-    }
-
-    public HSV() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        this.L = L;
     }
 
     public double getH() {
@@ -49,15 +45,15 @@ public class HSV extends ColorSpace {
         this.S = S;
     }
 
-    public double getV() {
-        return Math.round(V);
+    public double getL() {
+        return Math.round(L);
     }
 
     public double getV(int c) {
-        return rd(V,c);
+        return rd(L,c);
     }
     
-    public void setV(double V) {
-        this.V = V;
+    public void setL(double L) {
+        this.L = L;
     }
 }

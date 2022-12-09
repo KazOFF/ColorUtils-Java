@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package com.das.colorutil.colorspaces;
+package ru.kazov.colorutils.colorspaces;
 
 /**
  *

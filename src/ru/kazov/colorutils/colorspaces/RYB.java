@@ -4,20 +4,20 @@
  * and open the template in the editor.
  */
 
-package com.das.colorutil.colorspaces;
+package ru.kazov.colorutils.colorspaces;
 
 /**
  *
  * @author Kaz
  */
-public class ARGB extends ColorSpace {
+public class RYB extends ColorSpace {
     protected double R = 0;
-    protected double G = 0;
+    protected double Y = 0;
     protected double B = 0;
 
-    public ARGB(double R, double G, double B){
+    public RYB(double R, double Y, double B){
         this.R = R;
-        this.G = G;
+        this.Y = Y;
         this.B = B;
     }
 
@@ -29,12 +29,12 @@ public class ARGB extends ColorSpace {
         this.R = R;
     }
 
-    public double getG() {
-        return G;
+    public double getY() {
+        return Y;
     }
 
-    public void setG(double G) {
-        this.G = G;
+    public void setY(double G) {
+        this.Y = G;
     }
 
     public double getB() {

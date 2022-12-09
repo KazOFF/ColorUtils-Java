@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2c65470-df29-490b-9f71-d5ad35aa9b31" name="Default" comment="" />
+    <list default="true" id="a2c65470-df29-490b-9f71-d5ad35aa9b31" name="Default" comment="Change package name">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/das/colorutil/ColorDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/kazov/colorutils/ColorDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/das/colorutil/ColorHarmonizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/kazov/colorutils/ColorHarmonizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/das/colorutil/ImageAnalyze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/kazov/colorutils/ImageAnalyze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/das/colorutil/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/kazov/colorutils/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/das/colorutil/colorspaces/ARGB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/kazov/colorutils/colorspaces/ARGB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/das/colorutil/colorspaces/CIELCH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/kazov/colorutils/colorspaces/CIELCH.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/das/colorutil/colorspaces/CIELab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/kazov/colorutils/colorspaces/CIELab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/das/colorutil/colorspaces/CIELuv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/kazov/colorutils/colorspaces/CIELuv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/das/colorutil/colorspaces/CMYK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/kazov/colorutils/colorspaces/CMYK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/das/colorutil/colorspaces/ColorSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/kazov/colorutils/colorspaces/ColorSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/das/colorutil/colorspaces/HSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/kazov/colorutils/colorspaces/HSL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/das/colorutil/colorspaces/HSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/kazov/colorutils/colorspaces/HSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/das/colorutil/colorspaces/HunterLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/kazov/colorutils/colorspaces/HunterLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/das/colorutil/colorspaces/RGB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/kazov/colorutils/colorspaces/RGB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/das/colorutil/colorspaces/RYB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/kazov/colorutils/colorspaces/RYB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/das/colorutil/colorspaces/XYZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/kazov/colorutils/colorspaces/XYZ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/das/colorutil/colorspaces/Yxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/kazov/colorutils/colorspaces/Yxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/das/colorutil/utils/Quantize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/kazov/colorutils/utils/Quantize.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +35,9 @@
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -267,8 +290,16 @@
       <option name="presentableId" value="Default" />
       <updated>1427127879880</updated>
       <workItem from="1427127881058" duration="96000" />
-      <workItem from="1670610845567" duration="114000" />
+      <workItem from="1670610845567" duration="535000" />
     </task>
+    <task id="LOCAL-00001" summary="Change Java version to 8">
+      <created>1670611211291</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670611211291</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -309,6 +340,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -316,5 +358,10 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Change Java version to 8" />
+    <MESSAGE value="Change package name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change package name" />
   </component>
 </project>

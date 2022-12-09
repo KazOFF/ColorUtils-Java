@@ -3,10 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.das.colorutil;
+package ru.kazov.colorutils;
 
-import com.das.colorutil.utils.Quantize;
-import com.das.colorutil.colorspaces.RGB;
+import ru.kazov.colorutils.utils.Quantize;
+import ru.kazov.colorutils.colorspaces.RGB;
+
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.Collections;

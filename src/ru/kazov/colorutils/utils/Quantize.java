@@ -1,4 +1,4 @@
-package com.das.colorutil.utils;
+package ru.kazov.colorutils.utils;
 
 public class Quantize {
 

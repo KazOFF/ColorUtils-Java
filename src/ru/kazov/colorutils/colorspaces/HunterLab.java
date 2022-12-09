@@ -4,18 +4,18 @@
  * and open the template in the editor.
  */
 
-package com.das.colorutil.colorspaces;
+package ru.kazov.colorutils.colorspaces;
 
 /**
  *
  * @author Kaz
  */
-public class CIELab extends ColorSpace {
+public class HunterLab extends ColorSpace {
     protected double L;
     protected double a;
     protected double b;
     
-    public CIELab(double L, double a, double b){
+    public HunterLab(double L, double a, double b){
         this.L = L;
         this.a = a;
         this.b = b;

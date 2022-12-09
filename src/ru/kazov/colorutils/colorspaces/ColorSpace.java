@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.das.colorutil.colorspaces;
+package ru.kazov.colorutils.colorspaces;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
